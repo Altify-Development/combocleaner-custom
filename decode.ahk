@@ -12,7 +12,7 @@ Loop
 {
     stringnew := StrReplace(stringorgional, "`r`n`r`n", "`r`n", Count)
     if (Count = 0)  ; No more replacements needed.
-        stringorgional := StrReplace(stringnew, "User:%A_Space%", "", Count)
+        stringorgional := StrReplace(stringnew, "Username:%A_Space%", "", Count)
         if (Count = 0)  ; No more replacements needed.
             stringnew := StrReplace(stringorgional, "`nPassword:%A_Space%", ":", Count)
             if (Count = 0)  ; No more replacements needed.
