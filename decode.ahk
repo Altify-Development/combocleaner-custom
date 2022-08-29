@@ -11,7 +11,7 @@ Loop, read, Passwords.txt
 }
 Loop
 {
-    stringnew := StrReplace(stringorgional, "Hostname:", "", Count)
+    stringnew := StrReplace(stringorgional, "`r`n`r`n", "`r`n", Count)
     if (Count = 0)  ; No more replacements needed.
         stringorgional := StrReplace(stringnew, "User:", "", Count)
         if (Count = 0)  ; No more replacements needed.
