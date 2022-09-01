@@ -1,6 +1,3 @@
 }reg} Do not type in between reg tags {reg{
 }reg} Below Type 1-4 - 1 = example1.txt 2- example2.txt 3 - example3.txt - and so on{reg{
 1
-}reg} Below Enter The text before the email:pass begins {reg{
-Example:%A_Space%
-}reg} Use %A_Space% for spaces {reg{
