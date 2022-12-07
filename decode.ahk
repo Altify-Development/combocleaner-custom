@@ -18,3 +18,4 @@ Loop
             if (Count = 0)  ; No more replacements needed.
 }
 FileAppend,%stringnew%,newpass.txt
+; Planning to implement a path choice and auto hotfixing if an error occurs ( change the internal code while running to prevent users from breaking their computer due to thrownoutawindowosis )
